@@ -717,18 +717,38 @@
                     height: auto !important;
                 }
             </style><div class=""><div class="wForm" id="4804874-WRPR" dir="ltr">
-<div class="codesection" id="code-4804874"><script type="text/javascript" src="//tfaforms.com/js/ga_crossdomain_tracking.js"></script></div>
+<div class="codesection" id="code-4804874"><script src="//tfaforms.com/js/ga_crossdomain_tracking.js" type="text/javascript"></script></div>
 <h3 class="wFormTitle" id="4804874-T">Per Scholas IT Course Application | Detroit</h3>
 <form method="post" action="https://www.tfaforms.com/responses/processor" class="hintsBelow labelsAbove" id="4804874" role="form">
+<div class="saveAndResume"><div class="oneField">
+<span class="oneChoice"><input type="checkbox" id="tfa_saveForLater" name="tfa_saveForLater" value="1" data-conditionals="#saveAndResumeFieldset" autocomplete="off"><label for="tfa_saveForLater" class="postField">Save my progress and resume later</label></span>
+                | <a href="https://www.tfaforms.com/forms/resume/4804874" onclick="return confirm('Are you sure you want to resume a previous response? Any information you just entered on this page will be discarded.');">Resume a previously saved form</a>
+</div></div>
+<div class="saveAndResume" id="saveAndResumeFieldset" data-condition="`#tfa_saveForLater`"><fieldset>
+<legend>Resume Later</legend>
+<p class="instructions">In order to be able to resume this form later, please enter your email and choose a password.</p>
+<div class="oneField">
+<label class="preField" for="tfa_resumeEmail">Your Email:</label><input type="text" value="" name="tfa_resumeEmail" id="tfa_resumeEmail">
+</div>
+<div class="oneField">
+<label class="preField" for="tfa_resumePassword">A Password:</label><input type="password" value="" name="tfa_resumePassword" id="tfa_resumePassword">
+</div>
+<div class="oneField">
+<label class="preField" for="tfa_confirmPassword">Confirm Password:</label><input type="password" value="" name="tfa_confirmPassword" id="tfa_confirmPassword">
+</div>
+<div class="actions">
+<script type="text/javascript">wFORMS.behaviors.validation.passwordStrength = "low";</script><input type="button" class="primaryAction" id="tfa_resumeLater" name="tfa_resumeLater" value="Save">
+</div>
+</fieldset></div>
 <div class="wfPage" id="wfPgIndex-1"><div class="section pageSection" id="tfa_3054"><fieldset id="tfa_3251" class="section">
 <legend id="tfa_3251-L"><b>Pre-Qualification</b></legend>
 <div class="htmlSection" id="tfa_3252"><div class="htmlContent" id="tfa_3252-HTML"><b>To see if you are eligible for admissions, answer the following questions:</b><br><ol style=""><li style="">Are you 18 or older?</li><li style="">Do you have a High School Diploma or GED?</li><li style="">Are you a U.S. citizen or legally authorized to work in the U.S.?</li><li style="">Are you unemployed or under-employed, or can demonstrate financial need?</li><li style="">Are you able to commit to training Monday-Friday from 8AM to 5PM for the length of the program?</li><li style="">Are you committed to obtaining professional IT skills and future employment?</li></ol></div></div>
 <div class="oneField field-container-D    " id="tfa_3253-D" role="radiogroup" aria-labelledby="tfa_3253-L" data-tfa-labelledby="-L tfa_3253-L">
-<label id="tfa_3253-L" class="label preField reqMark">Can you answer <b>Yes</b>&nbsp;to all of the above questions?</label><br><div class="inputWrapper"><span id="tfa_3253" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_3254" class="" id="tfa_3254" name="tfa_3253" aria-required="true" aria-labelledby="tfa_3254-L" data-tfa-labelledby="tfa_3253-L tfa_3254-L"><label class="label postField" id="tfa_3254-L" for="tfa_3254"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_3255" class="" id="tfa_3255" name="tfa_3253" aria-required="true" aria-labelledby="tfa_3255-L" data-tfa-labelledby="tfa_3253-L tfa_3255-L"><label class="label postField" id="tfa_3255-L" for="tfa_3255"><span class="input-radio-faux"></span>No</label></span></span></div>
+<label id="tfa_3253-L" class="label preField reqMark">Can you answer <b>Yes</b>&nbsp;to all of the above questions?</label><br><div class="inputWrapper"><span id="tfa_3253" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_3254" class="" id="tfa_3254" name="tfa_3253" aria-required="true" data-conditionals="#tfa_9,#tfa_2511,#tfa_3714,#tfa_3748,#tfa_2841,#tfa_3234" aria-labelledby="tfa_3254-L" data-tfa-labelledby="tfa_3253-L tfa_3254-L"><label class="label postField" id="tfa_3254-L" for="tfa_3254"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_3255" class="" id="tfa_3255" name="tfa_3253" aria-required="true" data-conditionals="#tfa_7" aria-labelledby="tfa_3255-L" data-tfa-labelledby="tfa_3253-L tfa_3255-L"><label class="label postField" id="tfa_3255-L" for="tfa_3255"><span class="input-radio-faux"></span>No</label></span></span></div>
 </div>
 </fieldset></div></div>
-<div class="wfPage" id="wfPgIndex-2"><div class="section pageSection" id="tfa_9">
-<div class="htmlSection" id="tfa_3113"><div class="htmlContent" id="tfa_3113-HTML"><h4>IT Course Application</h4></div></div>
+<div class="wfPage" id="wfPgIndex-2"><div class="section pageSection" id="tfa_9" data-condition="`#tfa_3254`">
+<div class="htmlSection" id="tfa_3113"><div class="htmlContent" id="tfa_3113-HTML"><h4>Personal &amp; Demographic Info</h4></div></div>
 <div class="oneField field-container-D    " id="tfa_3256-D" role="radiogroup" aria-labelledby="tfa_3256-L" data-tfa-labelledby="-L tfa_3256-L">
 <label id="tfa_3256-L" class="label preField reqMark">Have you ever received any services from Per Scholas in the past?</label><br><div class="inputWrapper"><span id="tfa_3256" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_3257" class="" id="tfa_3257" name="tfa_3256" aria-required="true" data-conditionals="#tfa_3259" aria-labelledby="tfa_3257-L" data-tfa-labelledby="tfa_3256-L tfa_3257-L"><label class="label postField" id="tfa_3257-L" for="tfa_3257"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_3258" class="" id="tfa_3258" name="tfa_3256" aria-required="true" aria-labelledby="tfa_3258-L" data-tfa-labelledby="tfa_3256-L tfa_3258-L"><label class="label postField" id="tfa_3258-L" for="tfa_3258"><span class="input-radio-faux"></span>No</label></span></span></div>
 </div>
@@ -913,7 +933,7 @@
 <option value="tfa_3346" id="tfa_3346" class="">Wexford</option></select></div>
 </div>
 <div class="oneField field-container-D    " id="tfa_2189-D">
-<label id="tfa_2189-L" class="label preField reqMark" for="tfa_2189">Zip/ Postal Code</label><br><div class="inputWrapper"><input type="text" id="tfa_2189" name="tfa_2189" value="" placeholder="#####" aria-required="true" title="Zip/ Postal Code" class="validate-integer required"></div>
+<label id="tfa_2189-L" class="label preField reqMark" for="tfa_2189">Zip/Postal Code</label><br><div class="inputWrapper"><input type="text" id="tfa_2189" name="tfa_2189" value="" placeholder="#####" aria-required="true" title="Zip/Postal Code" class="validate-integer required"></div>
 </div>
 <div class="oneField field-container-D    " id="tfa_3400-D" role="radiogroup" aria-labelledby="tfa_3400-L" data-tfa-labelledby="-L tfa_3400-L">
 <label id="tfa_3400-L" class="label preField reqMark">Does your mailing address differ from the address above?</label><br><div class="inputWrapper"><span id="tfa_3400" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_3401" class="" id="tfa_3401" name="tfa_3400" aria-required="true" data-conditionals="#tfa_3403" aria-labelledby="tfa_3401-L" data-tfa-labelledby="tfa_3400-L tfa_3401-L"><label class="label postField" id="tfa_3401-L" for="tfa_3401"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_3402" class="" id="tfa_3402" name="tfa_3400" aria-required="true" aria-labelledby="tfa_3402-L" data-tfa-labelledby="tfa_3400-L tfa_3402-L"><label class="label postField" id="tfa_3402-L" for="tfa_3402"><span class="input-radio-faux"></span>No</label></span></span></div>
@@ -948,7 +968,7 @@
 <option value="tfa_3478" id="tfa_3478" class="">MA</option>
 <option value="tfa_3479" id="tfa_3479" class="">MD</option>
 <option value="tfa_3480" id="tfa_3480" class="">ME</option>
-<option value="tfa_3481" id="tfa_3481" data-conditionals="#tfa_3594" class="">MI</option>
+<option value="tfa_3481" id="tfa_3481" class="">MI</option>
 <option value="tfa_3482" id="tfa_3482" class="">MN</option>
 <option value="tfa_3483" id="tfa_3483" class="">MO</option>
 <option value="tfa_3484" id="tfa_3484" class="">MS</option>
@@ -978,94 +998,8 @@
 <option value="tfa_3508" id="tfa_3508" class="">WV</option>
 <option value="tfa_3509" id="tfa_3509" class="">WY</option></select></div>
 </div>
-<div class="oneField field-container-D    " id="tfa_3594-D">
-<label id="tfa_3594-L" class="label preField reqMark" for="tfa_3594">Mailing County</label><br><div class="inputWrapper"><select id="tfa_3594" name="tfa_3594" data-condition="`#tfa_3481`" title="Mailing County" aria-required="true" class="required"><option value="">Please select...</option>
-<option value="tfa_3595" id="tfa_3595" class="">Alcona</option>
-<option value="tfa_3596" id="tfa_3596" class="">Alger</option>
-<option value="tfa_3597" id="tfa_3597" class="">Allegan</option>
-<option value="tfa_3598" id="tfa_3598" class="">Alpena</option>
-<option value="tfa_3599" id="tfa_3599" class="">Antrim</option>
-<option value="tfa_3600" id="tfa_3600" class="">Arenac</option>
-<option value="tfa_3601" id="tfa_3601" class="">Baraga</option>
-<option value="tfa_3602" id="tfa_3602" class="">Barry</option>
-<option value="tfa_3603" id="tfa_3603" class="">Bay</option>
-<option value="tfa_3604" id="tfa_3604" class="">Benzie</option>
-<option value="tfa_3605" id="tfa_3605" class="">Berrien</option>
-<option value="tfa_3606" id="tfa_3606" class="">Branch</option>
-<option value="tfa_3607" id="tfa_3607" class="">Calhoun</option>
-<option value="tfa_3608" id="tfa_3608" class="">Cass</option>
-<option value="tfa_3609" id="tfa_3609" class="">Charlevoix</option>
-<option value="tfa_3610" id="tfa_3610" class="">Cheboygan</option>
-<option value="tfa_3611" id="tfa_3611" class="">Chippewa</option>
-<option value="tfa_3612" id="tfa_3612" class="">Clare</option>
-<option value="tfa_3613" id="tfa_3613" class="">Clinton</option>
-<option value="tfa_3614" id="tfa_3614" class="">Crawford</option>
-<option value="tfa_3615" id="tfa_3615" class="">Delta</option>
-<option value="tfa_3616" id="tfa_3616" class="">Dickinson</option>
-<option value="tfa_3617" id="tfa_3617" class="">Eaton</option>
-<option value="tfa_3618" id="tfa_3618" class="">Emmet</option>
-<option value="tfa_3619" id="tfa_3619" class="">Genesee</option>
-<option value="tfa_3620" id="tfa_3620" class="">Gladwin</option>
-<option value="tfa_3621" id="tfa_3621" class="">Gogebic</option>
-<option value="tfa_3622" id="tfa_3622" class="">Grand Traverse</option>
-<option value="tfa_3623" id="tfa_3623" class="">Gratiot</option>
-<option value="tfa_3624" id="tfa_3624" class="">Hillsdale</option>
-<option value="tfa_3625" id="tfa_3625" class="">Houghton</option>
-<option value="tfa_3626" id="tfa_3626" class="">Huron</option>
-<option value="tfa_3627" id="tfa_3627" class="">Ingham</option>
-<option value="tfa_3628" id="tfa_3628" class="">Iona</option>
-<option value="tfa_3629" id="tfa_3629" class="">Iosco</option>
-<option value="tfa_3630" id="tfa_3630" class="">Iron</option>
-<option value="tfa_3631" id="tfa_3631" class="">Isabella</option>
-<option value="tfa_3632" id="tfa_3632" class="">Jackson</option>
-<option value="tfa_3633" id="tfa_3633" class="">Kalamazoo</option>
-<option value="tfa_3634" id="tfa_3634" class="">Kalkaska</option>
-<option value="tfa_3635" id="tfa_3635" class="">Kent</option>
-<option value="tfa_3636" id="tfa_3636" class="">Keweenaw</option>
-<option value="tfa_3637" id="tfa_3637" class="">Lake</option>
-<option value="tfa_3638" id="tfa_3638" class="">Lapeer</option>
-<option value="tfa_3639" id="tfa_3639" class="">Leelanau</option>
-<option value="tfa_3640" id="tfa_3640" class="">Lenawee</option>
-<option value="tfa_3641" id="tfa_3641" class="">Livingston</option>
-<option value="tfa_3642" id="tfa_3642" class="">Luce</option>
-<option value="tfa_3643" id="tfa_3643" class="">Mackinac</option>
-<option value="tfa_3644" id="tfa_3644" class="">Macomb</option>
-<option value="tfa_3645" id="tfa_3645" class="">Manistee</option>
-<option value="tfa_3646" id="tfa_3646" class="">Marquette</option>
-<option value="tfa_3647" id="tfa_3647" class="">Mason</option>
-<option value="tfa_3648" id="tfa_3648" class="">Mecosta</option>
-<option value="tfa_3649" id="tfa_3649" class="">Menominee</option>
-<option value="tfa_3650" id="tfa_3650" class="">Midland</option>
-<option value="tfa_3651" id="tfa_3651" class="">Missaukee</option>
-<option value="tfa_3652" id="tfa_3652" class="">Monroe</option>
-<option value="tfa_3653" id="tfa_3653" class="">Montcalm</option>
-<option value="tfa_3654" id="tfa_3654" class="">Montmorency</option>
-<option value="tfa_3655" id="tfa_3655" class="">Muskegon</option>
-<option value="tfa_3656" id="tfa_3656" class="">Newaygo</option>
-<option value="tfa_3657" id="tfa_3657" class="">Oakland</option>
-<option value="tfa_3658" id="tfa_3658" class="">Oceana</option>
-<option value="tfa_3659" id="tfa_3659" class="">Ogemaw</option>
-<option value="tfa_3660" id="tfa_3660" class="">Ontonagon</option>
-<option value="tfa_3661" id="tfa_3661" class="">Osceola</option>
-<option value="tfa_3662" id="tfa_3662" class="">Oscoda</option>
-<option value="tfa_3663" id="tfa_3663" class="">Otsego</option>
-<option value="tfa_3664" id="tfa_3664" class="">Ottawa</option>
-<option value="tfa_3665" id="tfa_3665" class="">Presque Isle</option>
-<option value="tfa_3666" id="tfa_3666" class="">Roscommon</option>
-<option value="tfa_3667" id="tfa_3667" class="">Saginaw</option>
-<option value="tfa_3668" id="tfa_3668" class="">St. Clair</option>
-<option value="tfa_3669" id="tfa_3669" class="">St. Joseph</option>
-<option value="tfa_3670" id="tfa_3670" class="">Sanilac</option>
-<option value="tfa_3671" id="tfa_3671" class="">Schoolcraft</option>
-<option value="tfa_3672" id="tfa_3672" class="">Shiawassee</option>
-<option value="tfa_3673" id="tfa_3673" class="">Tuscola</option>
-<option value="tfa_3674" id="tfa_3674" class="">Van Buren</option>
-<option value="tfa_3675" id="tfa_3675" class="">Washtenaw</option>
-<option value="tfa_3676" id="tfa_3676" class="">Wayne</option>
-<option value="tfa_3677" id="tfa_3677" class="">Wexford</option></select></div>
-</div>
 <div class="oneField field-container-D    " id="tfa_3679-D">
-<label id="tfa_3679-L" class="label preField reqMark" for="tfa_3679">Mailing Zip/ Postal Code</label><br><div class="inputWrapper"><input type="text" id="tfa_3679" name="tfa_3679" value="" placeholder="#####" aria-required="true" title="Mailing Zip/ Postal Code" class="validate-integer required"></div>
+<label id="tfa_3679-L" class="label preField reqMark" for="tfa_3679">Mailing Zip/Postal Code</label><br><div class="inputWrapper"><input type="text" id="tfa_3679" name="tfa_3679" value="" placeholder="#####" aria-required="true" title="Mailing Zip/Postal Code" class="validate-integer required"></div>
 </div>
 </div>
 </fieldset>
@@ -1358,7 +1292,7 @@
 </div>
 </fieldset>
 </div></div>
-<div class="wfPage" id="wfPgIndex-3"><div class="section pageSection" id="tfa_2511">
+<div class="wfPage" id="wfPgIndex-3"><div class="section pageSection" id="tfa_2511" data-condition="`#tfa_3254`">
 <div class="htmlSection" id="tfa_3216"><div class="htmlContent" id="tfa_3216-HTML"><h4>Education &amp; Background</h4></div></div>
 <fieldset id="tfa_2512" class="section">
 <legend id="tfa_2512-L"><b>Education</b></legend>
@@ -1416,7 +1350,7 @@
 </div>
 </fieldset>
 </div></div>
-<div class="wfPage" id="wfPgIndex-4"><div class="section pageSection" id="tfa_3714">
+<div class="wfPage" id="wfPgIndex-4"><div class="section pageSection" id="tfa_3714" data-condition="`#tfa_3254`">
 <h4 id="tfa_3714-T">Employment</h4>
 <div class="oneField field-container-D    " id="tfa_2800-D" role="radiogroup" aria-labelledby="tfa_2800-L" data-tfa-labelledby="-L tfa_2800-L">
 <label id="tfa_2800-L" class="label preField reqMark">Are you able to provide documentation that you are legal to work in the U.S.?</label><br><div class="inputWrapper"><span id="tfa_2800" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_2801" class="" id="tfa_2801" name="tfa_2800" aria-required="true" aria-labelledby="tfa_2801-L" data-tfa-labelledby="tfa_2800-L tfa_2801-L"><label class="label postField" id="tfa_2801-L" for="tfa_2801"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_2802" class="" id="tfa_2802" name="tfa_2800" aria-required="true" aria-labelledby="tfa_2802-L" data-tfa-labelledby="tfa_2800-L tfa_2802-L"><label class="label postField" id="tfa_2802-L" for="tfa_2802"><span class="input-radio-faux"></span>No</label></span></span></div>
@@ -1475,7 +1409,7 @@
 <label id="tfa_3744-L" class="label preField reqMark">If you are accepted to Per Scholas, do you plan to work while in training?</label><br><div class="inputWrapper"><span id="tfa_3744" class="choices vertical required"><span class="oneChoice"><input type="radio" value="tfa_3745" class="" id="tfa_3745" name="tfa_3744" aria-required="true" aria-labelledby="tfa_3745-L" data-tfa-labelledby="tfa_3744-L tfa_3745-L"><label class="label postField" id="tfa_3745-L" for="tfa_3745"><span class="input-radio-faux"></span>Yes, Full-Time</label></span><span class="oneChoice"><input type="radio" value="tfa_3746" class="" id="tfa_3746" name="tfa_3744" aria-required="true" aria-labelledby="tfa_3746-L" data-tfa-labelledby="tfa_3744-L tfa_3746-L"><label class="label postField" id="tfa_3746-L" for="tfa_3746"><span class="input-radio-faux"></span>Yes, Part-Time</label></span><span class="oneChoice"><input type="radio" value="tfa_3747" class="" id="tfa_3747" name="tfa_3744" aria-required="true" aria-labelledby="tfa_3747-L" data-tfa-labelledby="tfa_3744-L tfa_3747-L"><label class="label postField" id="tfa_3747-L" for="tfa_3747"><span class="input-radio-faux"></span>No</label></span></span></div>
 </div>
 </div></div>
-<div class="wfPage" id="wfPgIndex-5"><div class="section pageSection" id="tfa_3748">
+<div class="wfPage" id="wfPgIndex-5"><div class="section pageSection" id="tfa_3748" data-condition="`#tfa_3254`">
 <h4 id="tfa_3748-T">Household, Financial Support &amp; Availability</h4>
 <fieldset id="tfa_3174" class="section">
 <legend id="tfa_3174-L"><b>Household Info</b></legend>
@@ -1577,7 +1511,7 @@
 </div>
 </fieldset>
 </div></div>
-<div class="wfPage" id="wfPgIndex-6"><div class="section pageSection" id="tfa_2841">
+<div class="wfPage" id="wfPgIndex-6"><div class="section pageSection" id="tfa_2841" data-condition="`#tfa_3254`">
 <h4 id="tfa_2841-T">IT Readiness</h4>
 <div class="oneField field-container-D    " id="tfa_3838-D" role="radiogroup" aria-labelledby="tfa_3838-L" data-tfa-labelledby="-L tfa_3838-L">
 <label id="tfa_3838-L" class="label preField reqMark">Do you have a computer at your residence?</label><br><div class="inputWrapper"><span id="tfa_3838" class="choices horizontal required"><span class="oneChoice"><input type="radio" value="tfa_3839" class="" id="tfa_3839" name="tfa_3838" aria-required="true" aria-labelledby="tfa_3839-L" data-tfa-labelledby="tfa_3838-L tfa_3839-L"><label class="label postField" id="tfa_3839-L" for="tfa_3839"><span class="input-radio-faux"></span>Yes</label></span><span class="oneChoice"><input type="radio" value="tfa_3840" class="" id="tfa_3840" name="tfa_3838" aria-required="true" aria-labelledby="tfa_3840-L" data-tfa-labelledby="tfa_3838-L tfa_3840-L"><label class="label postField" id="tfa_3840-L" for="tfa_3840"><span class="input-radio-faux"></span>No</label></span></span></div>
@@ -1596,10 +1530,10 @@
 <label id="tfa_3224-L" class="label preField reqMark" for="tfa_3224">How ill an IT certification(s) help you in your career?</label><br><div class="inputWrapper"><textarea aria-required="true" maxlength="1000" id="tfa_3224" name="tfa_3224" title="How ill an IT certification(s) help you in your career?" class="required"></textarea></div>
 </div>
 </div></div>
-<div class="wfPage" id="wfPgIndex-7"><div class="section pageSection" id="tfa_3234">
+<div class="wfPage" id="wfPgIndex-7"><div class="section pageSection" id="tfa_3234" data-condition="`#tfa_3254`">
 <h4 id="tfa_3234-T">Referral Info</h4>
 <div class="oneField field-container-D    " id="tfa_2779-D" role="radiogroup" aria-labelledby="tfa_2779-L" data-tfa-labelledby="-L tfa_2779-L">
-<label id="tfa_2779-L" class="label preField reqMark">How did you <b>FIRST</b> hear about this course?</label><br><div class="inputWrapper"><span id="tfa_2779" class="choices vertical required"><span class="oneChoice"><input type="radio" value="tfa_2780" class="" id="tfa_2780" name="tfa_2779" aria-required="true" data-conditionals="#tfa_3235" aria-labelledby="tfa_2780-L" data-tfa-labelledby="tfa_2779-L tfa_2780-L"><label class="label postField" id="tfa_2780-L" for="tfa_2780"><span class="input-radio-faux"></span>Community Organization</label></span><span class="oneChoice"><input type="radio" value="tfa_2782" class="" id="tfa_2782" name="tfa_2779" aria-required="true" data-conditionals="#tfa_2996" aria-labelledby="tfa_2782-L" data-tfa-labelledby="tfa_2779-L tfa_2782-L"><label class="label postField" id="tfa_2782-L" for="tfa_2782"><span class="input-radio-faux"></span>Internet, Social Media or Job Board</label></span><span class="oneChoice"><input type="radio" value="tfa_2784" class="" id="tfa_2784" name="tfa_2779" aria-required="true" data-conditionals="#tfa_3002" aria-labelledby="tfa_2784-L" data-tfa-labelledby="tfa_2779-L tfa_2784-L"><label class="label postField" id="tfa_2784-L" for="tfa_2784"><span class="input-radio-faux"></span>Word of Mouth</label></span><span class="oneChoice"><input type="radio" value="tfa_3247" class="" id="tfa_3247" name="tfa_2779" aria-required="true" aria-labelledby="tfa_3247-L" data-tfa-labelledby="tfa_2779-L tfa_3247-L"><label class="label postField" id="tfa_3247-L" for="tfa_3247"><span class="input-radio-faux"></span>Media Outlet</label></span></span></div>
+<label id="tfa_2779-L" class="label preField reqMark">How did you <b>FIRST</b> hear about this course?</label><br><div class="inputWrapper"><span id="tfa_2779" class="choices vertical required"><span class="oneChoice"><input type="radio" value="tfa_2780" class="" id="tfa_2780" name="tfa_2779" aria-required="true" data-conditionals="#tfa_3235" aria-labelledby="tfa_2780-L" data-tfa-labelledby="tfa_2779-L tfa_2780-L"><label class="label postField" id="tfa_2780-L" for="tfa_2780"><span class="input-radio-faux"></span>Community Organization</label></span><span class="oneChoice"><input type="radio" value="tfa_2782" class="" id="tfa_2782" name="tfa_2779" aria-required="true" data-conditionals="#tfa_2996" aria-labelledby="tfa_2782-L" data-tfa-labelledby="tfa_2779-L tfa_2782-L"><label class="label postField" id="tfa_2782-L" for="tfa_2782"><span class="input-radio-faux"></span>Internet, Social Media or Job Board</label></span><span class="oneChoice"><input type="radio" value="tfa_3247" class="" id="tfa_3247" name="tfa_2779" aria-required="true" aria-labelledby="tfa_3247-L" data-tfa-labelledby="tfa_2779-L tfa_3247-L"><label class="label postField" id="tfa_3247-L" for="tfa_3247"><span class="input-radio-faux"></span>Media Outlet</label></span><span class="oneChoice"><input type="radio" value="tfa_2784" class="" id="tfa_2784" name="tfa_2779" aria-required="true" data-conditionals="#tfa_3002" aria-labelledby="tfa_2784-L" data-tfa-labelledby="tfa_2779-L tfa_2784-L"><label class="label postField" id="tfa_2784-L" for="tfa_2784"><span class="input-radio-faux"></span>Word of Mouth</label></span></span></div>
 </div>
 <div class="oneField field-container-D    " id="tfa_3235-D">
 <label id="tfa_3235-L" class="label preField reqMark" for="tfa_3235">Name of Community Organization that referred you</label><br><div class="inputWrapper"><input type="text" id="tfa_3235" name="tfa_3235" value="" maxlength="255" aria-required="true" data-condition="`#tfa_2780`" title="Name of Community Organization that referred you" class="required"></div>
@@ -1631,10 +1565,13 @@
 <label id="tfa_3244-L" class="label preField reqMark" for="tfa_3244">Please specify the <b>Other</b> Partner referral source</label><br><div class="inputWrapper"><input type="text" id="tfa_3244" name="tfa_3244" value="" maxlength="255" aria-required="true" data-condition="`#tfa_3005`" title="Please specify the Other Partner referral source" class="required"></div>
 </div>
 </div></div>
-<div class="wfPage" id="wfPgIndex-8"><div class="section pageSection" id="tfa_7"><div class="htmlSection" id="tfa_8"><div class="htmlContent" id="tfa_8-HTML">We are sorry, but based on your responses, you do not qualify for admission to Per Scholas, Detroit at this time. You may be eligible to apply in the future. Please contact us if you need assistance or further information to work toward qualifying.&nbsp;<br><div><p></p></div></div></div></div></div>
+<div class="wfPage" id="wfPgIndex-8"><div class="section pageSection" id="tfa_7" data-condition="`#tfa_3255`"><div class="htmlSection" id="tfa_8"><div class="htmlContent" id="tfa_8-HTML">We are sorry, but based on your responses, you do not qualify for admission to Per Scholas, Detroit at this time. You may be eligible to apply in the future. Please contact us if you need assistance or further information to work toward qualifying.&nbsp;<br><div><p></p></div></div></div></div></div>
 <div class="actions" id="4804874-A"><input type="submit" data-label="Submit" class="primaryAction" id="submit_button" value="Submit"></div>
 <div style="clear:both"></div>
-<input type="hidden" value="4804874" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="122e64a858f3752f9d86a517a6a4e5e9" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="27" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+<input type="hidden" value="4804874" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="122e64a858f3752f9d86a517a6a4e5e9" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="32" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff"><div class="saveAndResume"><div class="oneField">
+<a href="#" id="tfa_saveForLaterLink">Save my progress and resume later</a>
+                | <a href="https://www.tfaforms.com/forms/resume/4804874" onclick="return confirm('Are you sure you want to resume a previous response? Any information you just entered on this page will be discarded.');">Resume a previously saved form</a>
+</div></div>
 </form>
 </div></div><div class="wFormFooter"><p class="supportInfo"><a target="new" class="contactInfoLink" href="https://perscholas.org/assets/about/NON-DISCRIMINATIONPOLICY.pdf">Non-Discrimination Policy</a><br><a target="new" class="gdprLink" href="https://www.formassembly.com/gdpr-rights">PII Policy</a></p></div>
   <p class="supportInfo" >
